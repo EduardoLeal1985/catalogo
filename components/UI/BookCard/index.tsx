@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
+import { BookCardContainer } from './styles';
+
 type Props = {
     title: string;
     author: string;
@@ -9,10 +11,10 @@ type Props = {
 
 export default function BookCard({ title, author, onPress }: Props) {
     return (
-        <TouchableOpacity style={styles.card} onPress={onPress}>
+        <BookCardContainer onPress={onPress}>
             <Text style={styles.title}>{title}</Text>
             <Text style={styles.author}>{author}</Text>
-        </TouchableOpacity>
+        </BookCardContainer>
     );
 }
 

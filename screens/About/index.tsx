@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, FlatList, StyleSheet } from 'react-native';
-import BookCard from '../../components/BookCard';
+import BookCard from '../../components/UI/BookCard/BookCard';
 import { books } from '../../data/books';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../routes';
