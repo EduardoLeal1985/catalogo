@@ -1,10 +1,8 @@
 import React from 'react';
-import { View, FlatList, StyleSheet } from 'react-native';
-import BookCard from '../../components/UI/BookCard/BookCard';
-import { books } from '../../data/books';
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../../routes';
-import { Container, Title, Text } from './styles';
+import { Container } from './styles';
+import { Title, Text } from '../../components/UI/Text';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'About'>;
 

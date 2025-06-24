@@ -12,5 +12,5 @@ export const Title = styled.Text`
 `;
 export const Text = styled.Text`
   font-size: 16px;
-  color: #333; `
-    ;
+  color: #333;
+`;

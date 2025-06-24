@@ -8,3 +8,13 @@ export const BookCardContainer = styled.TouchableOpacity`
   margin-bottom: 12px;
   border-radius: 8px;
 `;
+
+export const TitleText = styled.Text`
+  font-weight: bold;
+  font-size: 16px;
+`;
+
+export const AuthorText = styled.Text`
+  font-size: 14px;
+  color: #555;
+`;
